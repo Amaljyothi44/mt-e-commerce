@@ -1,6 +1,21 @@
-# Welcome to your Expo app 👋
+# Welcome to Basic E-commerce app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern e-commerce application built with React Native and Expo. This app provides a seamless shopping experience with features like product listing, cart management, and a custom tab navigation system.
+
+## Screenshots
+### Dark Mode & Light Mode
+<p float="left">
+  <img src="assets/images/s1.jpg" width="200" />
+  <img src="assets/images/s2.jpg" width="200" />
+</p>
+## Features
+
+- **Product Listing**: Browse through a list of products with their names and prices.
+- **Cart Management**: Add products to the cart, adjust quantities, and view the total price.
+- **Custom Tab Navigation**: Navigate between the "Products" and "Cart" screens using a custom tab bar with a badge showing the total number of items in the cart.
+- **Redux Integration**: State management is handled using Redux Toolkit for a scalable and maintainable architecture.
+- **Reusable Components**: Modular and reusable components like `ProductItem`, `CartItem`, and `CustomTabBar`.
+
 
 ## Get started
 
@@ -25,26 +40,3 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
