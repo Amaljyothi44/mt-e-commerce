@@ -3,7 +3,7 @@
 A modern e-commerce application built with React Native and Expo. This app provides a seamless shopping experience with features like product listing, cart management, and a custom tab navigation system.
 
 ## Screenshots
-### Dark Mode & Light Mode
+### Product and Cart Screens
 <p float="left">
   <img src="assets/images/s1.jpg" width="200" />
   <img src="assets/images/s2.jpg" width="200" />
