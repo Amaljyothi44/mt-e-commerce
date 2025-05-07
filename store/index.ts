@@ -1,3 +1,11 @@
-export * from '@/store/user';
-export { default as rootReducer } from '@/store/rootReducer';
-export { default as store } from './store';
+import { configureStore } from '@reduxjs/toolkit';
+import cartReducer from './cartSlice';
+
+export const store = configureStore({
+  reducer: {
+    cart: cartReducer,
+  },
+});
+
+export type RootState = ReturnType<typeof store.getState>;
+export type AppDispatch = typeof store.dispatch;
